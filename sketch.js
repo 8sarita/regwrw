@@ -60,7 +60,7 @@ function draw() {
 	monster.scale = 0.3;
 	background(vsImg);
 
-	if(touches.length < 0 ||mousePressedOver(monster)){
+	if(touches.length > 0 ||mousePressedOver(monster)){
        
 		gameState = vsState;
 
